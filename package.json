@@ -1,0 +1,30 @@
+{
+  "name": "zingmp3_be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manh1111/zingmp3_.git"
+  },
+  "keywords": [
+    "zingmp3",
+    "be"
+  ],
+  "author": "manh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manh1111/zingmp3_/issues"
+  },
+  "homepage": "https://github.com/manh1111/zingmp3_#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
