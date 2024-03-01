@@ -24,10 +24,7 @@ app.use(methodOverride('_method'))
 
 // Cors
 let corsOptions = {
-    origin: [
-        'https://zing-mp3-zeta.vercel.app/',
-        'http://localhost:3000'
-    ]
+    origin: '*'
 }
 
 
